@@ -13,6 +13,22 @@ Academic success is influenced by a combination of academic habits, personal mot
 
 ---
 
+## 📸 Application Screenshots
+
+### 1. Student Performance Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### 2. Prediction Form (Academic & Personal Factors)
+![Prediction Form](screenshots/prediction_form.png)
+
+### 3. Real-Time Score Prediction Result
+![Prediction Result](screenshots/prediction_result.png)
+
+### 4. Project Information & Model Evaluation
+![Model Evaluation](screenshots/model_evaluation.png)
+
+---
+
 ## 📊 Dataset Overview
 
 The dataset (`dataset/StudentPerformanceFactors.csv`) contains comprehensive student records evaluating various behavioral and demographic factors:
@@ -52,6 +68,11 @@ Student-Performance-Prediction/
 │   └── 02_Student_Performance_Factors_EDA.ipynb  # Exploratory Data Analysis & Modeling
 ├── results/
 │   └── final_model_metrics.csv            # Evaluation metrics (R2, MAE, RMSE)
+├── screenshots/
+│   ├── dashboard.png                      # App dashboard overview
+│   ├── model_evaluation.png               # Metrics & evaluation summary
+│   ├── prediction_form.png                # Input form for prediction
+│   └── prediction_result.png              # Predicted score output
 ├── .gitignore                             # Git ignore rules
 ├── app_v2.py                              # Streamlit Web Application (UI v2)
 ├── README.md                              # Project documentation
